@@ -62,7 +62,7 @@ async function run() {
 
 
 
-        console.log('saad')
+
 
         app.post('/users', async (req, res) => {
             const user = req.body;
