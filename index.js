@@ -50,7 +50,7 @@ async function run() {
             res.send(users)
         })
 
-        console.log('saad')
+
 
 
         app.get('/users/admin/:email', async (req, res) => {
